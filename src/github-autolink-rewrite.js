@@ -42,7 +42,7 @@ class GithubAutolinkRewrite {
 
     console.log();
     console.log(color.blueBright('Alright, we are ready to begin the rewrite process.'));
-    console.log(color.blueBright('Please review the rewrite plan bellow. And choose your method.'));
+    console.log(color.blueBright('Please review the rewrite plan bellow.'));
     console.log(`Repo: \t\t${color.green(`${org}/${repo}`)}\nFind: \t\t${color.red(find)}\nReplace: \t${color.yellow(replace)}`);
 
     const { good } = await prompts({

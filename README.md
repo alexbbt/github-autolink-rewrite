@@ -60,7 +60,7 @@ Here are the first few autolinks on this repo:
 ✔ What string should we replace the above string with? … https://https://bell-towne.atlassian.net/browse/
 
 Alright, we are ready to begin the rewrite process.
-Please review the rewrite plan bellow. And choose your method.
+Please review the rewrite plan bellow.
 Repo: 		alexbbt/www.bell-towne.com
 Find: 		https://jira.bell-towne.com/browse/
 Replace: 	https://https://bell-towne.atlassian.net/browse/
