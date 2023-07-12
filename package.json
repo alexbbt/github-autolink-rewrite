@@ -1,0 +1,35 @@
+{
+  "name": "github-autolink-rewrite",
+  "version": "1.0.0",
+  "description": "Rewrite the autolinks for a Github Repo using a String Replace",
+  "main": "index.js",
+  "bin": {
+    "github-autolink-rewrite": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "linting": "eslint ./",
+    "linting:fix": "npm run linting -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbbt/github-autolink-rewrite.git"
+  },
+  "author": "Alexander Bell-Towne <code@bell-towne.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexbbt/github-autolink-rewrite/issues"
+  },
+  "homepage": "https://github.com/alexbbt/github-autolink-rewrite#readme",
+  "dependencies": {
+    "@octokit/core": "^5.0.0",
+    "cli-color": "^2.0.3",
+    "debounce": "^1.2.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
